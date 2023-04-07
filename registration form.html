@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BANK FORM</title>
+</head>
+<style>
+    nav>div {
+        background-color: rgb(249, 221, 11);
+
+    }
+
+    nav {
+        background-color: rgb(102, 189, 247);
+        height: 40px;
+        width: 50.99%;
+        margin: auto;
+
+    }
+
+    fieldset {
+        margin-bottom: 1em;
+        border: 5px solid rgb(248, 244, 6);
+        border-right: 5px solid rgb(3, 154, 255);
+        border-bottom: 5px solid rgb(3, 154, 255);
+        width: 50%;
+        text-align: left;
+     
+    }
+
+    .button {
+        color: white;
+        background-color: rgb(3, 154, 255);
+        border-radius: 25px;
+        padding: 2.5px;
+        width: 10%;
+        margin-left: 40%;
+    }
+
+    .clear {
+        color: white;
+        background-color: rgb(3, 154, 255);
+        border-radius: 25px;
+        padding: 2.5px;
+        width: 10%;
+    }
+</style>
+<body>
+    <form>
+        <center><img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Canara_Bank_Logo.svg/492px-Canara_Bank_Logo.svg.png?20100912171219">
+        </center>
+        <nav>
+            <div>
+                <ul>
+                    &nbsp;
+                </ul>
+            </div>
+            <ul>
+                &nbsp;
+            </ul>
+        </nav>
+        <center>
+            <fieldset>
+                <legend>
+                    <h2>Register For Internet Banking</h2>
+                </legend>
+                <div class="dpt">
+                    <label for="digit">Current/Saving Account
+                        Number</label>
+                    <input type="text" id="digit" name="digit" value="" maxlength="13">
+                    <label for="digit">13 digits only</label><br><br>
+                    <label for="digit">ATM Cum Debit Card
+                        Number</label>
+                    <input type="text" id="digit" name="digit" value="" maxlength="4" size="4">
+                    <span><input type="text" id="digit" name="digit" value="" maxlength="4" size="4"></span>
+                    <span><input type="text" id="digit" name="digit" value="" maxlength="4" size="4"></span>
+                    <span><input type="text" id="digit" name="digit" value="" maxlength="4" size="4"></span><br><br>
+                    <label for="help">Mobile
+                        Number</label>
+                    <input type="text" id="help" name="help" value="" maxlength="10">
+                    <label for="help">Help?</label><br><br>
+                    <input type="radio" id="customer" name="customer">
+                    <label for="customer">CUSTOMER ID</label>
+                    <input type="text" id="customer" name="customer" value="" maxlength="13"><br>
+                    <label>OR</label><br>
+                    <input type="radio" id="customer" name="customer">
+                    <label for="customer">Any 1 from last 5 transactions</label>
+                    <label for="customer">Rs.</label>
+                    <input type="text" id="customer" name="customer" value="">
+                    <input type="radio" id="card" name="card">
+                    <label for="card">Debit</label>
+                    <input type="radio" id="card" name="card">
+                    <label for="card">Credit</label>
+                    <h3>Type of facility required</h3>
+                    <input type="radio" id="inquiry" name="inquiry">
+                    <label for="inquiry">Inquiry Facility Only</label>
+                    <label for="fields">Mandatory fields</label><br>
+                    <input type="checkbox" id="fields" name="fields">
+                    <label for="fields"><strong>I HEREBY DECLARE THAT I HAVE READ AND ABIDE BY ALL THE</strong></label>
+                    <a href="terms.html">TERMS AND CONDITIONS</a><br>
+                    <input type="submit" value="submit" class="button">
+                    <input type="reset" value="clear" class="clear">
+                </div>
+            </fieldset>
+        </center>
+    </form>
+    
+</body>
+</html>
